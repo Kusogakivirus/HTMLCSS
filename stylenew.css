@@ -56,7 +56,6 @@
       justify-content: right;
       align-items: center;
       padding-right: 2rem;
-      
   }
   .navbar ul a {
      margin: 0 1rem;
@@ -79,67 +78,12 @@
   .navbar ul a.active {
       background: white;
       color: BLACK;
-      padding: 6px 30px;     
+      padding: 6px 30px;
   } 
   .navbar ul {
       list-style: none;
-      letter-spacing: 0.5px;    
+      letter-spacing: 0.5px
   }
-  .phonenav  {
-    background: black;
-    margin-top: 0em;
-    height: auto;
-    position: absolute;
-    width: 20em;  
-    right: -20em;
-    transition: right 0.3s ease;  
-  }
-  .phonenav ul  {
-    list-style: none;
-    text-align: center;   
-  }
-  .phonenav a {
-    display: table;
-    margin: 1em;
-    right: 0;
-    left: 0;
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 600;
-    text-decoration: none;
-    color: white;  
-  }
-  .phonenav li {
-    position: relative;
-    overflow: hidden;
-  }
-  .phonenav li::before,
-  .phonenav li::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: white;
-    transition: transform 0.3s ease, width 0.3s ease;
-    
-  }
-  .phonenav li::before {
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-  }
-  .phonenav li::after {
-    right: 50%;
-    bottom: 0;
-    transform: translateX(50%);
-  }
-  .phonenav li:hover::before,
-  .phonenav li:hover::after {
-    width: 50%;
-    transform: scaleX(1);
-  }
-
   .section {
     padding: 50px 0;
     text-align: center;
@@ -191,7 +135,6 @@
     padding: 6px 15px;
     border-radius: 20px;
   }
-
   .buttonfake:hover {
     margin: 0 1rem;
     text-decoration: none;
@@ -202,9 +145,7 @@
     transition: background 0.2s,
     color 0.2s,
     padding 0.2s;
-
   }
-
   @keyframes animate {
     0% {
       background-position: 0 50% ;
